@@ -113,6 +113,26 @@ header h3 {
   font-size: 20px;
 
 }
+.service {
+    height: 150px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid silver;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 30px;
+}
+
+.service button {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
 
 h4 {
   font-size: 20px;
