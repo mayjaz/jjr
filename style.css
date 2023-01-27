@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: rgb(220, 220, 220);
+  background-color: whitesmoke;
   font-family: 'Spline Sans Mono', monospace;
 
 }
@@ -142,11 +142,11 @@ h4 {
 }
 
 .heading1{
-  border-right: solid 1px black;
+  border-right: solid 0.8px silver;
   padding: 5%;
   padding-top: 0%;
-  background-color: silver;
-  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  border-bottom: 1px solid silver;
 }
 .heading1 img {
   border-radius: 13px;
