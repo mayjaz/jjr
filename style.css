@@ -158,31 +158,6 @@ header h3 {
   padding-top: 250px;
 }
 
-
-
-footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  height: 60px;
-}
-
-footer .links {
-  padding-top: 20px;
-  
-}
-
-footer a {
-  color: black;
-}
-
-.sponsor {
-  padding-top: 20px;
-}
-
-.extra {
-  padding-top: 20px;
-}
-
 .of {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
