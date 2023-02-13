@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
 
 body {
   margin: 0;
@@ -25,10 +25,7 @@ main {
   border-bottom: 1px solid black;
   background-color: black;
   position: relative;
-
 }
-
-
 
 .bdp {
   position: absolute;
@@ -55,24 +52,6 @@ main {
   font-size: 20px;
 }
 
-.streams h3 {
-  padding: 20px;
-}
-
-.streams1 {
-  background-color: rgb(220, 220, 220);
-  font-weight: 600;
-  border: solid 0.5px black;
-  padding: 20px;
-  height: 50px;
-  width: 350px;
-
-}
-
-.bdp span {
-  color: purple;
-  padding-top: 10px;
-}
 main img {
   width: 100%;
 }
@@ -93,16 +72,9 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-bottom: 1px solid black;
-  height: 750px;
-}
-
-
-header h3 {
-  border-bottom: solid 1px black;
-  font-weight: lighter;
-  font-size: 20px;
 
 }
+
 .service {
     height: 150px;
     background-color: transparent;
@@ -118,53 +90,56 @@ header h3 {
 }
 
 .service button {
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    border: solid #808080 1px;
+    color: black;
     border-radius: 12px;
+    height: 28px;
 }
 
 
 h4 {
   font-size: 20px;
-  font-weight: bold;
   font-family: 'Unbounded';
-
 }
 
-.heading1{
+section{
   border-right: solid 0.8px silver;
   padding: 5%;
   padding-top: 0%;
   background-color: whitesmoke;
   border-bottom: 1px solid silver;
 }
-.heading1 img {
+section img {
   border-radius: 13px;
   width: 100%;
 }
-.heading2{
-  border-right: solid 1px black;
+
+section i {
+  float: right;
 }
 
-
-
-header h3 {
-  padding-left: 15px;
-  padding-bottom: 10px;
-
-}
-
-.heading3 p {
-  padding-top: 250px;
-}
-
-.of {
+footer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  height: 60px;
 }
 
-.of img {
-  width: 100%;
+footer .links {
+  padding-top: 20px;
+  
+}
+
+footer a {
+  color: black;
+}
+
+.sponsor {
+  padding-top: 20px;
+}
+
+.extra {
+  padding-top: 20px;
 }
 
 .logo {
@@ -177,23 +152,12 @@ header h3 {
 }
 
 @media (max-width: 550px) {
-  .heading1 {
+  section {
     background-color: whitesmoke;
     color: black;
     grid-column: span 3;
     border-bottom: 0.8px solid silver;
  }
-
- .heading2 {
-  background-color: lightskyblue;
-  grid-column: span 3;
-}
-
-.heading3 {
-  background-color: lightblue;
-  grid-column: span 3;
-  
-}
 .bdp {
   display: none;
 }
@@ -206,7 +170,9 @@ header h3 {
   grid-column: span 3;
   
 }
-
+section p {
+  font-weight: 300;
+}
 .a{
   display: none;
 }
