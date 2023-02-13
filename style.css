@@ -94,9 +94,7 @@ header {
     border: solid #808080 1px;
     color: black;
     border-radius: 12px;
-    height: 28px;
 }
-
 
 h4 {
   font-size: 20px;
@@ -119,28 +117,15 @@ section i {
   float: right;
 }
 
-footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  height: 60px;
+section a {
+  text-decoration: none;
+  color: #000000;
 }
 
-footer .links {
-  padding-top: 20px;
-  
+section a:hover{
+  color: #808080;
 }
 
-footer a {
-  color: black;
-}
-
-.sponsor {
-  padding-top: 20px;
-}
-
-.extra {
-  padding-top: 20px;
-}
 
 .logo {
   grid-column: 3;
